@@ -18,6 +18,7 @@ body {
 .home-page{
   height: 100vh;
   overflow-y: scroll;
+  background-color: #57b9bf;
 }
 
 .home {
@@ -81,7 +82,7 @@ body {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    background-color: #4d4e09;
+    background-color: ;
 }
 
 .honungs {
@@ -100,7 +101,7 @@ body {
 }
 
 .custom-shape-divider-top-1694971635 .shape-fill {
-    fill: #1c1c12;
+    fill: #fdff3b;
     
 }
 
@@ -116,8 +117,8 @@ body {
   justify-content: center;
   align-items: center;
   z-index: -1;
-  top: 250px;
-  background-color: #4d4e09;
+  top: 280px;
+  background-color: #57b9bf;
   
 }
 
