@@ -53,17 +53,22 @@ body {
   color: red;
 }
 .strack {
-  width: 50%;
+  width: 170%;
   height: 3px;
   background-color: #FFF146;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 20dvh;
+  margin-top: 5dvh;
   border-radius: 2px;
 }
-
+@media only screen and (max-width: 700px) {
+  .strack {
+    margin-top: 15dvh;
+    width: 130%;
+  }
+}
 
 .box {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);}
@@ -76,10 +81,12 @@ body {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    background-color: #4d4e09;
 }
 
 .honungs {
   position: relative;
+  
 }
 
 
@@ -93,11 +100,14 @@ body {
 }
 
 .custom-shape-divider-top-1694971635 .shape-fill {
-    fill: #FFF146;
+    fill: #1c1c12;
+    
 }
 
 
 /*---------------Portfolio------------------------------*/
+
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -107,6 +117,7 @@ body {
   align-items: center;
   z-index: -1;
   top: 250px;
+  background-color: #4d4e09;
   
 }
 
